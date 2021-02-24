@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selection: Tab = .trailhead
+    
+    enum Tab {
+        case trailhead
+        case map
+        case about
+    }
+    
     var body: some View {
-        TrailheadList()
+        TabView(selection: $selection){
+            TrailheadList()
+                .tabItem {
+                    Label("Trailheads", systemImage: "sun.max.fill")
+                }
+            AllTrailheadsMapView()
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }
+            About()
+                .tabItem {
+                    Label("About", systemImage: "bubble.right.fill")
+                }
+        }
     }
 }
 

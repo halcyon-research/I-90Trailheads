@@ -14,8 +14,10 @@ struct TrailheadRow: View {
         VStack {
             HStack {
                 Text(trailhead.name)
+                    .fontWeight(.medium)
                     .padding(.leading)
                     .font(.title3)
+                    .lineLimit(1)
                 Spacer()
             }
             HStack {
@@ -28,14 +30,6 @@ struct TrailheadRow: View {
             .font(.subheadline)
             
         }
-        .padding([.top, .bottom])
+        .padding([.top, .bottom], 5)
     }
-}
-
-struct TrailheadRow_Previews: PreviewProvider {
-    static var previews: some View {
-        TrailheadRow(trailhead: trailheads[0])
-            .previewLayout(.fixed(width: 300, height: 70))
-    }
-    
 }

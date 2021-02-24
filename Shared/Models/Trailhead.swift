@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import CoreLocation
+import Alamofire
 
 struct Trailhead: Hashable, Codable, Identifiable {
     var id: Int
@@ -28,5 +29,23 @@ struct Trailhead: Hashable, Codable, Identifiable {
             longitude: coords[1])
     }
     
+}
 
+class TrailheadRequest {
+    func getTrailheads(completion: @escaping ([Trailhead]) -> ()) {
+        guard let url = URL(string: "https://michaelpeterswa.com/final_trailheads.json") else { return }
+        
+        URLSession.shared.dataTask(with: url) { (data, _, error) in
+            if let data = data {
+                if let trailheads = try? JSONDecoder().decode([Trailhead].self, from: data) {
+                    DispatchQueue.main.async {
+                        completion(trailheads)
+                    }
+                    return
+                }
+            }
+            print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
+        }
+        .resume()
+    }
 }

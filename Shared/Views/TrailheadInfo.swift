@@ -12,7 +12,7 @@ struct TrailheadInfo: View {
     
     var body: some View {
         VStack {
-            MapView(coordinate: trailhead.locationCoordinate)
+            TrailheadMapView(coordinate: trailhead.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             ScrollView {
@@ -94,9 +94,3 @@ struct TrailheadInfo: View {
             }
         }
     }
-
-struct TrailheadInfo_Previews: PreviewProvider {
-    static var previews: some View {
-        TrailheadInfo(trailhead: trailheads[0])
-    }
-}
