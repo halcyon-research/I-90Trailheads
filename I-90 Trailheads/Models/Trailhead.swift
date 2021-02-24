@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 import CoreLocation
-import Alamofire
 
 struct Trailhead: Hashable, Codable, Identifiable {
     var id: Int

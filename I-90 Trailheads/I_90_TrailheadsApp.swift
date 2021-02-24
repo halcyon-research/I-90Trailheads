@@ -1,8 +1,8 @@
 //
 //  I_90_TrailheadsApp.swift
-//  Shared
+//  I-90 Trailheads
 //
-//  Created by Michael Peters on 2/21/21.
+//  Created by Michael Peters on 2/24/21.
 //
 
 import SwiftUI

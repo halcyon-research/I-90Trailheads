@@ -1,13 +1,13 @@
 //
-//  Tests_macOS.swift
-//  Tests macOS
+//  I_90_TrailheadsUITests.swift
+//  I-90 TrailheadsUITests
 //
-//  Created by Michael Peters on 2/21/21.
+//  Created by Michael Peters on 2/24/21.
 //
 
 import XCTest
 
-class Tests_macOS: XCTestCase {
+class I_90_TrailheadsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

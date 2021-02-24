@@ -7,89 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C77AA67925E300F10036E30C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA67825E300F10036E30C /* Tests_iOS.swift */; };
-		C77AA68425E300F10036E30C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA68325E300F10036E30C /* Tests_macOS.swift */; };
-		C77AA68625E300F10036E30C /* I_90_TrailheadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA65D25E300F00036E30C /* I_90_TrailheadsApp.swift */; };
-		C77AA68725E300F10036E30C /* I_90_TrailheadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA65D25E300F00036E30C /* I_90_TrailheadsApp.swift */; };
-		C77AA68825E300F10036E30C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA65E25E300F00036E30C /* ContentView.swift */; };
-		C77AA68925E300F10036E30C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA65E25E300F00036E30C /* ContentView.swift */; };
-		C77AA68A25E300F10036E30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77AA65F25E300F10036E30C /* Assets.xcassets */; };
-		C77AA68B25E300F10036E30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77AA65F25E300F10036E30C /* Assets.xcassets */; };
-		C77AA6A225E302B40036E30C /* Trailhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA6A125E302B40036E30C /* Trailhead.swift */; };
-		C77AA6A825E306A70036E30C /* final_trailheads.json in Resources */ = {isa = PBXBuildFile; fileRef = C77AA6A725E306A70036E30C /* final_trailheads.json */; };
-		C77AA6AE25E307110036E30C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA6AD25E307110036E30C /* ModelData.swift */; };
-		C77AA6B825E309BE0036E30C /* TrailheadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA6B725E309BE0036E30C /* TrailheadList.swift */; };
-		C77AA6BE25E30A280036E30C /* TrailheadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AA6BD25E30A280036E30C /* TrailheadRow.swift */; };
-		C7876CA225E48A47003C0743 /* TrailheadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7876CA125E48A47003C0743 /* TrailheadInfo.swift */; };
-		C7876CA825E48C39003C0743 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7876CA725E48C39003C0743 /* MapView.swift */; };
-		C7876CAF25E4CA9C003C0743 /* OpenInMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7876CAE25E4CA9C003C0743 /* OpenInMaps.swift */; };
+		C789007E25E6CCCE00A8E1AA /* I_90_TrailheadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789007D25E6CCCE00A8E1AA /* I_90_TrailheadsApp.swift */; };
+		C789008025E6CCCE00A8E1AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789007F25E6CCCE00A8E1AA /* ContentView.swift */; };
+		C789008225E6CCD000A8E1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C789008125E6CCD000A8E1AA /* Assets.xcassets */; };
+		C789008525E6CCD000A8E1AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C789008425E6CCD000A8E1AA /* Preview Assets.xcassets */; };
+		C789009025E6CCD000A8E1AA /* I_90_TrailheadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789008F25E6CCD000A8E1AA /* I_90_TrailheadsTests.swift */; };
+		C789009B25E6CCD000A8E1AA /* I_90_TrailheadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789009A25E6CCD000A8E1AA /* I_90_TrailheadsUITests.swift */; };
+		C78900C025E6CE0300A8E1AA /* final_trailheads.json in Resources */ = {isa = PBXBuildFile; fileRef = C78900B525E6CE0300A8E1AA /* final_trailheads.json */; };
+		C78900C125E6CE0300A8E1AA /* TrailheadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900B725E6CE0300A8E1AA /* TrailheadList.swift */; };
+		C78900C225E6CE0300A8E1AA /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900B825E6CE0300A8E1AA /* About.swift */; };
+		C78900C325E6CE0300A8E1AA /* TrailheadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900B925E6CE0300A8E1AA /* TrailheadRow.swift */; };
+		C78900C425E6CE0300A8E1AA /* AllTrailheadsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900BA25E6CE0300A8E1AA /* AllTrailheadsMapView.swift */; };
+		C78900C525E6CE0300A8E1AA /* TrailheadMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900BB25E6CE0300A8E1AA /* TrailheadMapView.swift */; };
+		C78900C725E6CE0300A8E1AA /* TrailheadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900BD25E6CE0300A8E1AA /* TrailheadInfo.swift */; };
+		C78900C825E6CE0300A8E1AA /* OpenInMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900BF25E6CE0300A8E1AA /* OpenInMaps.swift */; };
+		C78900DC25E6D0BE00A8E1AA /* Trailhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900DA25E6D0BE00A8E1AA /* Trailhead.swift */; };
+		C78900DD25E6D0BE00A8E1AA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78900DB25E6D0BE00A8E1AA /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C77AA67525E300F10036E30C /* PBXContainerItemProxy */ = {
+		C789008C25E6CCD000A8E1AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C77AA65825E300F00036E30C /* Project object */;
+			containerPortal = C789007225E6CCCE00A8E1AA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C77AA66325E300F10036E30C;
-			remoteInfo = "I-90 Trailheads (iOS)";
+			remoteGlobalIDString = C789007925E6CCCE00A8E1AA;
+			remoteInfo = "I-90 Trailheads";
 		};
-		C77AA68025E300F10036E30C /* PBXContainerItemProxy */ = {
+		C789009725E6CCD000A8E1AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C77AA65825E300F00036E30C /* Project object */;
+			containerPortal = C789007225E6CCCE00A8E1AA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C77AA66B25E300F10036E30C;
-			remoteInfo = "I-90 Trailheads (macOS)";
+			remoteGlobalIDString = C789007925E6CCCE00A8E1AA;
+			remoteInfo = "I-90 Trailheads";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C77AA65D25E300F00036E30C /* I_90_TrailheadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_90_TrailheadsApp.swift; sourceTree = "<group>"; };
-		C77AA65E25E300F00036E30C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C77AA65F25E300F10036E30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C77AA66425E300F10036E30C /* I-90 Trailheads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I-90 Trailheads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C77AA66725E300F10036E30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C77AA66C25E300F10036E30C /* I-90 Trailheads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I-90 Trailheads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C77AA66E25E300F10036E30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C77AA66F25E300F10036E30C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		C77AA67425E300F10036E30C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C77AA67825E300F10036E30C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		C77AA67A25E300F10036E30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C77AA67F25E300F10036E30C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C77AA68325E300F10036E30C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		C77AA68525E300F10036E30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C77AA6A125E302B40036E30C /* Trailhead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailhead.swift; sourceTree = "<group>"; };
-		C77AA6A725E306A70036E30C /* final_trailheads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = final_trailheads.json; sourceTree = "<group>"; };
-		C77AA6AD25E307110036E30C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		C77AA6B725E309BE0036E30C /* TrailheadList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailheadList.swift; sourceTree = "<group>"; };
-		C77AA6BD25E30A280036E30C /* TrailheadRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailheadRow.swift; sourceTree = "<group>"; };
-		C7876CA125E48A47003C0743 /* TrailheadInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailheadInfo.swift; sourceTree = "<group>"; };
-		C7876CA725E48C39003C0743 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		C7876CAE25E4CA9C003C0743 /* OpenInMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenInMaps.swift; sourceTree = "<group>"; };
+		C789007A25E6CCCE00A8E1AA /* I-90 Trailheads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I-90 Trailheads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C789007D25E6CCCE00A8E1AA /* I_90_TrailheadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_90_TrailheadsApp.swift; sourceTree = "<group>"; };
+		C789007F25E6CCCE00A8E1AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C789008125E6CCD000A8E1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C789008425E6CCD000A8E1AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C789008625E6CCD000A8E1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C789008B25E6CCD000A8E1AA /* I-90 TrailheadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-90 TrailheadsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C789008F25E6CCD000A8E1AA /* I_90_TrailheadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_90_TrailheadsTests.swift; sourceTree = "<group>"; };
+		C789009125E6CCD000A8E1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C789009625E6CCD000A8E1AA /* I-90 TrailheadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I-90 TrailheadsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C789009A25E6CCD000A8E1AA /* I_90_TrailheadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_90_TrailheadsUITests.swift; sourceTree = "<group>"; };
+		C789009C25E6CCD000A8E1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78900B525E6CE0300A8E1AA /* final_trailheads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = final_trailheads.json; sourceTree = "<group>"; };
+		C78900B725E6CE0300A8E1AA /* TrailheadList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailheadList.swift; sourceTree = "<group>"; };
+		C78900B825E6CE0300A8E1AA /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		C78900B925E6CE0300A8E1AA /* TrailheadRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailheadRow.swift; sourceTree = "<group>"; };
+		C78900BA25E6CE0300A8E1AA /* AllTrailheadsMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTrailheadsMapView.swift; sourceTree = "<group>"; };
+		C78900BB25E6CE0300A8E1AA /* TrailheadMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailheadMapView.swift; sourceTree = "<group>"; };
+		C78900BD25E6CE0300A8E1AA /* TrailheadInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailheadInfo.swift; sourceTree = "<group>"; };
+		C78900BF25E6CE0300A8E1AA /* OpenInMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenInMaps.swift; sourceTree = "<group>"; };
+		C78900DA25E6D0BE00A8E1AA /* Trailhead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trailhead.swift; sourceTree = "<group>"; };
+		C78900DB25E6D0BE00A8E1AA /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C77AA66125E300F10036E30C /* Frameworks */ = {
+		C789007725E6CCCE00A8E1AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C77AA66925E300F10036E30C /* Frameworks */ = {
+		C789008825E6CCD000A8E1AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C77AA67125E300F10036E30C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C77AA67C25E300F10036E30C /* Frameworks */ = {
+		C789009325E6CCD000A8E1AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,213 +92,188 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C77AA65725E300F00036E30C = {
+		C789007125E6CCCE00A8E1AA = {
 			isa = PBXGroup;
 			children = (
-				C77AA65C25E300F00036E30C /* Shared */,
-				C77AA66625E300F10036E30C /* iOS */,
-				C77AA66D25E300F10036E30C /* macOS */,
-				C77AA67725E300F10036E30C /* Tests iOS */,
-				C77AA68225E300F10036E30C /* Tests macOS */,
-				C77AA66525E300F10036E30C /* Products */,
+				C789007C25E6CCCE00A8E1AA /* I-90 Trailheads */,
+				C789008E25E6CCD000A8E1AA /* I-90 TrailheadsTests */,
+				C789009925E6CCD000A8E1AA /* I-90 TrailheadsUITests */,
+				C789007B25E6CCCE00A8E1AA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C77AA65C25E300F00036E30C /* Shared */ = {
+		C789007B25E6CCCE00A8E1AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7876CAD25E4CA82003C0743 /* Utilities */,
-				C77AA6A025E3015B0036E30C /* Resources */,
-				C77AA69F25E3014B0036E30C /* Models */,
-				C77AA69E25E3012E0036E30C /* Views */,
-				C77AA65D25E300F00036E30C /* I_90_TrailheadsApp.swift */,
-				C77AA65F25E300F10036E30C /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		C77AA66525E300F10036E30C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C77AA66425E300F10036E30C /* I-90 Trailheads.app */,
-				C77AA66C25E300F10036E30C /* I-90 Trailheads.app */,
-				C77AA67425E300F10036E30C /* Tests iOS.xctest */,
-				C77AA67F25E300F10036E30C /* Tests macOS.xctest */,
+				C789007A25E6CCCE00A8E1AA /* I-90 Trailheads.app */,
+				C789008B25E6CCD000A8E1AA /* I-90 TrailheadsTests.xctest */,
+				C789009625E6CCD000A8E1AA /* I-90 TrailheadsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C77AA66625E300F10036E30C /* iOS */ = {
+		C789007C25E6CCCE00A8E1AA /* I-90 Trailheads */ = {
 			isa = PBXGroup;
 			children = (
-				C77AA66725E300F10036E30C /* Info.plist */,
+				C78900D925E6D0BE00A8E1AA /* Models */,
+				C78900B425E6CE0300A8E1AA /* Resources */,
+				C78900BE25E6CE0300A8E1AA /* Utilities */,
+				C78900B625E6CE0300A8E1AA /* Views */,
+				C789007D25E6CCCE00A8E1AA /* I_90_TrailheadsApp.swift */,
+				C789008125E6CCD000A8E1AA /* Assets.xcassets */,
+				C789008625E6CCD000A8E1AA /* Info.plist */,
+				C789008325E6CCD000A8E1AA /* Preview Content */,
 			);
-			path = iOS;
+			path = "I-90 Trailheads";
 			sourceTree = "<group>";
 		};
-		C77AA66D25E300F10036E30C /* macOS */ = {
+		C789008325E6CCD000A8E1AA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C77AA66E25E300F10036E30C /* Info.plist */,
-				C77AA66F25E300F10036E30C /* macOS.entitlements */,
+				C789008425E6CCD000A8E1AA /* Preview Assets.xcassets */,
 			);
-			path = macOS;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C77AA67725E300F10036E30C /* Tests iOS */ = {
+		C789008E25E6CCD000A8E1AA /* I-90 TrailheadsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C77AA67825E300F10036E30C /* Tests_iOS.swift */,
-				C77AA67A25E300F10036E30C /* Info.plist */,
+				C789008F25E6CCD000A8E1AA /* I_90_TrailheadsTests.swift */,
+				C789009125E6CCD000A8E1AA /* Info.plist */,
 			);
-			path = "Tests iOS";
+			path = "I-90 TrailheadsTests";
 			sourceTree = "<group>";
 		};
-		C77AA68225E300F10036E30C /* Tests macOS */ = {
+		C789009925E6CCD000A8E1AA /* I-90 TrailheadsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C77AA68325E300F10036E30C /* Tests_macOS.swift */,
-				C77AA68525E300F10036E30C /* Info.plist */,
+				C789009A25E6CCD000A8E1AA /* I_90_TrailheadsUITests.swift */,
+				C789009C25E6CCD000A8E1AA /* Info.plist */,
 			);
-			path = "Tests macOS";
+			path = "I-90 TrailheadsUITests";
 			sourceTree = "<group>";
 		};
-		C77AA69E25E3012E0036E30C /* Views */ = {
+		C78900B425E6CE0300A8E1AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C77AA65E25E300F00036E30C /* ContentView.swift */,
-				C77AA6B725E309BE0036E30C /* TrailheadList.swift */,
-				C77AA6BD25E30A280036E30C /* TrailheadRow.swift */,
-				C7876CA125E48A47003C0743 /* TrailheadInfo.swift */,
-				C7876CA725E48C39003C0743 /* MapView.swift */,
+				C78900B525E6CE0300A8E1AA /* final_trailheads.json */,
 			);
-			path = Views;
-			sourceTree = "<group>";
+			name = Resources;
+			path = "I-90 Trailheads/Resources";
+			sourceTree = SOURCE_ROOT;
 		};
-		C77AA69F25E3014B0036E30C /* Models */ = {
+		C78900B625E6CE0300A8E1AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C77AA6A125E302B40036E30C /* Trailhead.swift */,
-				C77AA6AD25E307110036E30C /* ModelData.swift */,
+				C789007F25E6CCCE00A8E1AA /* ContentView.swift */,
+				C78900B725E6CE0300A8E1AA /* TrailheadList.swift */,
+				C78900B825E6CE0300A8E1AA /* About.swift */,
+				C78900B925E6CE0300A8E1AA /* TrailheadRow.swift */,
+				C78900BA25E6CE0300A8E1AA /* AllTrailheadsMapView.swift */,
+				C78900BB25E6CE0300A8E1AA /* TrailheadMapView.swift */,
+				C78900BD25E6CE0300A8E1AA /* TrailheadInfo.swift */,
+			);
+			name = Views;
+			path = "I-90 Trailheads/Views";
+			sourceTree = SOURCE_ROOT;
+		};
+		C78900BE25E6CE0300A8E1AA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C78900BF25E6CE0300A8E1AA /* OpenInMaps.swift */,
+			);
+			name = Utilities;
+			path = "I-90 Trailheads/Utilities";
+			sourceTree = SOURCE_ROOT;
+		};
+		C78900D925E6D0BE00A8E1AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C78900DA25E6D0BE00A8E1AA /* Trailhead.swift */,
+				C78900DB25E6D0BE00A8E1AA /* ModelData.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		C77AA6A025E3015B0036E30C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C77AA6A725E306A70036E30C /* final_trailheads.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C7876CAD25E4CA82003C0743 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				C7876CAE25E4CA9C003C0743 /* OpenInMaps.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C77AA66325E300F10036E30C /* I-90 Trailheads (iOS) */ = {
+		C789007925E6CCCE00A8E1AA /* I-90 Trailheads */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C77AA68E25E300F10036E30C /* Build configuration list for PBXNativeTarget "I-90 Trailheads (iOS)" */;
+			buildConfigurationList = C789009F25E6CCD000A8E1AA /* Build configuration list for PBXNativeTarget "I-90 Trailheads" */;
 			buildPhases = (
-				C77AA66025E300F10036E30C /* Sources */,
-				C77AA66125E300F10036E30C /* Frameworks */,
-				C77AA66225E300F10036E30C /* Resources */,
+				C789007625E6CCCE00A8E1AA /* Sources */,
+				C789007725E6CCCE00A8E1AA /* Frameworks */,
+				C789007825E6CCCE00A8E1AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "I-90 Trailheads (iOS)";
-			productName = "I-90 Trailheads (iOS)";
-			productReference = C77AA66425E300F10036E30C /* I-90 Trailheads.app */;
+			name = "I-90 Trailheads";
+			productName = "I-90 Trailheads";
+			productReference = C789007A25E6CCCE00A8E1AA /* I-90 Trailheads.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C77AA66B25E300F10036E30C /* I-90 Trailheads (macOS) */ = {
+		C789008A25E6CCD000A8E1AA /* I-90 TrailheadsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C77AA69125E300F10036E30C /* Build configuration list for PBXNativeTarget "I-90 Trailheads (macOS)" */;
+			buildConfigurationList = C78900A225E6CCD000A8E1AA /* Build configuration list for PBXNativeTarget "I-90 TrailheadsTests" */;
 			buildPhases = (
-				C77AA66825E300F10036E30C /* Sources */,
-				C77AA66925E300F10036E30C /* Frameworks */,
-				C77AA66A25E300F10036E30C /* Resources */,
+				C789008725E6CCD000A8E1AA /* Sources */,
+				C789008825E6CCD000A8E1AA /* Frameworks */,
+				C789008925E6CCD000A8E1AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C789008D25E6CCD000A8E1AA /* PBXTargetDependency */,
 			);
-			name = "I-90 Trailheads (macOS)";
-			productName = "I-90 Trailheads (macOS)";
-			productReference = C77AA66C25E300F10036E30C /* I-90 Trailheads.app */;
-			productType = "com.apple.product-type.application";
+			name = "I-90 TrailheadsTests";
+			productName = "I-90 TrailheadsTests";
+			productReference = C789008B25E6CCD000A8E1AA /* I-90 TrailheadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C77AA67325E300F10036E30C /* Tests iOS */ = {
+		C789009525E6CCD000A8E1AA /* I-90 TrailheadsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C77AA69425E300F10036E30C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = C78900A525E6CCD000A8E1AA /* Build configuration list for PBXNativeTarget "I-90 TrailheadsUITests" */;
 			buildPhases = (
-				C77AA67025E300F10036E30C /* Sources */,
-				C77AA67125E300F10036E30C /* Frameworks */,
-				C77AA67225E300F10036E30C /* Resources */,
+				C789009225E6CCD000A8E1AA /* Sources */,
+				C789009325E6CCD000A8E1AA /* Frameworks */,
+				C789009425E6CCD000A8E1AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C77AA67625E300F10036E30C /* PBXTargetDependency */,
+				C789009825E6CCD000A8E1AA /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = C77AA67425E300F10036E30C /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		C77AA67E25E300F10036E30C /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C77AA69725E300F10036E30C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				C77AA67B25E300F10036E30C /* Sources */,
-				C77AA67C25E300F10036E30C /* Frameworks */,
-				C77AA67D25E300F10036E30C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C77AA68125E300F10036E30C /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = C77AA67F25E300F10036E30C /* Tests macOS.xctest */;
+			name = "I-90 TrailheadsUITests";
+			productName = "I-90 TrailheadsUITests";
+			productReference = C789009625E6CCD000A8E1AA /* I-90 TrailheadsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C77AA65825E300F00036E30C /* Project object */ = {
+		C789007225E6CCCE00A8E1AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					C77AA66325E300F10036E30C = {
+					C789007925E6CCCE00A8E1AA = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					C77AA66B25E300F10036E30C = {
+					C789008A25E6CCD000A8E1AA = {
 						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C789007925E6CCCE00A8E1AA;
 					};
-					C77AA67325E300F10036E30C = {
+					C789009525E6CCD000A8E1AA = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = C77AA66325E300F10036E30C;
-					};
-					C77AA67E25E300F10036E30C = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = C77AA66B25E300F10036E30C;
+						TestTargetID = C789007925E6CCCE00A8E1AA;
 					};
 				};
 			};
-			buildConfigurationList = C77AA65B25E300F00036E30C /* Build configuration list for PBXProject "I-90 Trailheads" */;
+			buildConfigurationList = C789007525E6CCCE00A8E1AA /* Build configuration list for PBXProject "I-90 Trailheads" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -313,45 +281,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C77AA65725E300F00036E30C;
-			productRefGroup = C77AA66525E300F10036E30C /* Products */;
+			mainGroup = C789007125E6CCCE00A8E1AA;
+			productRefGroup = C789007B25E6CCCE00A8E1AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C77AA66325E300F10036E30C /* I-90 Trailheads (iOS) */,
-				C77AA66B25E300F10036E30C /* I-90 Trailheads (macOS) */,
-				C77AA67325E300F10036E30C /* Tests iOS */,
-				C77AA67E25E300F10036E30C /* Tests macOS */,
+				C789007925E6CCCE00A8E1AA /* I-90 Trailheads */,
+				C789008A25E6CCD000A8E1AA /* I-90 TrailheadsTests */,
+				C789009525E6CCD000A8E1AA /* I-90 TrailheadsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C77AA66225E300F10036E30C /* Resources */ = {
+		C789007825E6CCCE00A8E1AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77AA68A25E300F10036E30C /* Assets.xcassets in Resources */,
-				C77AA6A825E306A70036E30C /* final_trailheads.json in Resources */,
+				C789008525E6CCD000A8E1AA /* Preview Assets.xcassets in Resources */,
+				C789008225E6CCD000A8E1AA /* Assets.xcassets in Resources */,
+				C78900C025E6CE0300A8E1AA /* final_trailheads.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C77AA66A25E300F10036E30C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C77AA68B25E300F10036E30C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C77AA67225E300F10036E30C /* Resources */ = {
+		C789008925E6CCD000A8E1AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C77AA67D25E300F10036E30C /* Resources */ = {
+		C789009425E6CCD000A8E1AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,64 +321,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C77AA66025E300F10036E30C /* Sources */ = {
+		C789007625E6CCCE00A8E1AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7876CAF25E4CA9C003C0743 /* OpenInMaps.swift in Sources */,
-				C77AA68825E300F10036E30C /* ContentView.swift in Sources */,
-				C7876CA825E48C39003C0743 /* MapView.swift in Sources */,
-				C77AA6AE25E307110036E30C /* ModelData.swift in Sources */,
-				C77AA68625E300F10036E30C /* I_90_TrailheadsApp.swift in Sources */,
-				C7876CA225E48A47003C0743 /* TrailheadInfo.swift in Sources */,
-				C77AA6BE25E30A280036E30C /* TrailheadRow.swift in Sources */,
-				C77AA6A225E302B40036E30C /* Trailhead.swift in Sources */,
-				C77AA6B825E309BE0036E30C /* TrailheadList.swift in Sources */,
+				C78900C425E6CE0300A8E1AA /* AllTrailheadsMapView.swift in Sources */,
+				C789008025E6CCCE00A8E1AA /* ContentView.swift in Sources */,
+				C78900C225E6CE0300A8E1AA /* About.swift in Sources */,
+				C78900C525E6CE0300A8E1AA /* TrailheadMapView.swift in Sources */,
+				C789007E25E6CCCE00A8E1AA /* I_90_TrailheadsApp.swift in Sources */,
+				C78900C725E6CE0300A8E1AA /* TrailheadInfo.swift in Sources */,
+				C78900DC25E6D0BE00A8E1AA /* Trailhead.swift in Sources */,
+				C78900DD25E6D0BE00A8E1AA /* ModelData.swift in Sources */,
+				C78900C825E6CE0300A8E1AA /* OpenInMaps.swift in Sources */,
+				C78900C125E6CE0300A8E1AA /* TrailheadList.swift in Sources */,
+				C78900C325E6CE0300A8E1AA /* TrailheadRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C77AA66825E300F10036E30C /* Sources */ = {
+		C789008725E6CCD000A8E1AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77AA68925E300F10036E30C /* ContentView.swift in Sources */,
-				C77AA68725E300F10036E30C /* I_90_TrailheadsApp.swift in Sources */,
+				C789009025E6CCD000A8E1AA /* I_90_TrailheadsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C77AA67025E300F10036E30C /* Sources */ = {
+		C789009225E6CCD000A8E1AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77AA67925E300F10036E30C /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C77AA67B25E300F10036E30C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C77AA68425E300F10036E30C /* Tests_macOS.swift in Sources */,
+				C789009B25E6CCD000A8E1AA /* I_90_TrailheadsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C77AA67625E300F10036E30C /* PBXTargetDependency */ = {
+		C789008D25E6CCD000A8E1AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C77AA66325E300F10036E30C /* I-90 Trailheads (iOS) */;
-			targetProxy = C77AA67525E300F10036E30C /* PBXContainerItemProxy */;
+			target = C789007925E6CCCE00A8E1AA /* I-90 Trailheads */;
+			targetProxy = C789008C25E6CCD000A8E1AA /* PBXContainerItemProxy */;
 		};
-		C77AA68125E300F10036E30C /* PBXTargetDependency */ = {
+		C789009825E6CCD000A8E1AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C77AA66B25E300F10036E30C /* I-90 Trailheads (macOS) */;
-			targetProxy = C77AA68025E300F10036E30C /* PBXContainerItemProxy */;
+			target = C789007925E6CCCE00A8E1AA /* I-90 Trailheads */;
+			targetProxy = C789009725E6CCD000A8E1AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C77AA68C25E300F10036E30C /* Debug */ = {
+		C789009D25E6CCD000A8E1AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -469,15 +422,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C77AA68D25E300F10036E30C /* Release */ = {
+		C789009E25E6CCD000A8E1AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -522,244 +477,184 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C77AA68F25E300F10036E30C /* Debug */ = {
+		C78900A025E6CCD000A8E1AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"I-90 Trailheads/Preview Content\"";
 				DEVELOPMENT_TEAM = H43AUM3LA2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = "I-90 Trailheads/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-Trailheads";
-				PRODUCT_NAME = "I-90 Trailheads";
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C77AA69025E300F10036E30C /* Release */ = {
+		C78900A125E6CCD000A8E1AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"I-90 Trailheads/Preview Content\"";
 				DEVELOPMENT_TEAM = H43AUM3LA2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = "I-90 Trailheads/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-Trailheads";
-				PRODUCT_NAME = "I-90 Trailheads";
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C77AA69225E300F10036E30C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = H43AUM3LA2;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-Trailheads";
-				PRODUCT_NAME = "I-90 Trailheads";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		C77AA69325E300F10036E30C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = H43AUM3LA2;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-Trailheads";
-				PRODUCT_NAME = "I-90 Trailheads";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		C77AA69525E300F10036E30C /* Debug */ = {
+		C78900A325E6CCD000A8E1AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H43AUM3LA2;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = "I-90 TrailheadsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-TrailheadsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "I-90 Trailheads (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I-90 Trailheads.app/I-90 Trailheads";
 			};
 			name = Debug;
 		};
-		C77AA69625E300F10036E30C /* Release */ = {
+		C78900A425E6CCD000A8E1AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H43AUM3LA2;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = "I-90 TrailheadsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-TrailheadsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "I-90 Trailheads (iOS)";
-				VALIDATE_PRODUCT = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I-90 Trailheads.app/I-90 Trailheads";
 			};
 			name = Release;
 		};
-		C77AA69825E300F10036E30C /* Debug */ = {
+		C78900A625E6CCD000A8E1AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H43AUM3LA2;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				INFOPLIST_FILE = "I-90 TrailheadsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-TrailheadsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "I-90 Trailheads (macOS)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I-90 Trailheads";
 			};
 			name = Debug;
 		};
-		C77AA69925E300F10036E30C /* Release */ = {
+		C78900A725E6CCD000A8E1AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H43AUM3LA2;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				INFOPLIST_FILE = "I-90 TrailheadsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.halcyonresearch.I-90-TrailheadsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "I-90 Trailheads (macOS)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I-90 Trailheads";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C77AA65B25E300F00036E30C /* Build configuration list for PBXProject "I-90 Trailheads" */ = {
+		C789007525E6CCCE00A8E1AA /* Build configuration list for PBXProject "I-90 Trailheads" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C77AA68C25E300F10036E30C /* Debug */,
-				C77AA68D25E300F10036E30C /* Release */,
+				C789009D25E6CCD000A8E1AA /* Debug */,
+				C789009E25E6CCD000A8E1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C77AA68E25E300F10036E30C /* Build configuration list for PBXNativeTarget "I-90 Trailheads (iOS)" */ = {
+		C789009F25E6CCD000A8E1AA /* Build configuration list for PBXNativeTarget "I-90 Trailheads" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C77AA68F25E300F10036E30C /* Debug */,
-				C77AA69025E300F10036E30C /* Release */,
+				C78900A025E6CCD000A8E1AA /* Debug */,
+				C78900A125E6CCD000A8E1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C77AA69125E300F10036E30C /* Build configuration list for PBXNativeTarget "I-90 Trailheads (macOS)" */ = {
+		C78900A225E6CCD000A8E1AA /* Build configuration list for PBXNativeTarget "I-90 TrailheadsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C77AA69225E300F10036E30C /* Debug */,
-				C77AA69325E300F10036E30C /* Release */,
+				C78900A325E6CCD000A8E1AA /* Debug */,
+				C78900A425E6CCD000A8E1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C77AA69425E300F10036E30C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		C78900A525E6CCD000A8E1AA /* Build configuration list for PBXNativeTarget "I-90 TrailheadsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C77AA69525E300F10036E30C /* Debug */,
-				C77AA69625E300F10036E30C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C77AA69725E300F10036E30C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C77AA69825E300F10036E30C /* Debug */,
-				C77AA69925E300F10036E30C /* Release */,
+				C78900A625E6CCD000A8E1AA /* Debug */,
+				C78900A725E6CCD000A8E1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C77AA65825E300F00036E30C /* Project object */;
+	rootObject = C789007225E6CCCE00A8E1AA /* Project object */;
 }
