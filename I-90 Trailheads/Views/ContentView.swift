@@ -13,7 +13,9 @@ struct ContentView: View {
     
     enum Tab {
         case trailhead
+//        case alttrailhead
         case map
+        case gps
         case about
     }
     
@@ -23,9 +25,17 @@ struct ContentView: View {
                 .tabItem {
                     Label("Trailheads", systemImage: "sun.max.fill")
                 }
+//            AltTrailheadList()
+//                .tabItem {
+//                    Label("AltTrailheads", systemImage: "sun.max.fill")
+//                }
             AllTrailheadsMapView()
                 .tabItem {
                     Label("Map", systemImage: "map")
+                }
+            GPSView()
+                .tabItem{
+                    Label("GPS", systemImage: "pin")
                 }
             About()
                 .tabItem {

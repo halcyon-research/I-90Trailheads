@@ -10,10 +10,11 @@ import CoreLocation
 import MapKit
 
 struct AllTrailheadsMapView: View {
-    let coordinate = CLLocationCoordinate2DMake(47.468188, -121.936349)
+    let coordinate = CLLocationCoordinate2DMake(47.496043, -121.784812)
     @State private var region = MKCoordinateRegion()
-//    @State var trailheads: [Trailhead]
-    
+    @ObservedObject var locationManager = LocationManager()
+    @State var trailheads: [Trailhead] = []
+    @State private var annotationItems: [Location] = []
     
     struct Location: Identifiable {
         var id = UUID()
@@ -21,21 +22,22 @@ struct AllTrailheadsMapView: View {
     }
 
     var body: some View {
-//        private var annotationItems: [Location] = []
-        Map(coordinateRegion: $region)
-//        { item in
-//            MapMarker(coordinate: coordinate)
-//        }
-            .ignoresSafeArea(edges: .top)
-            .onAppear {
-                setRegion(coordinate)
-//                TrailheadRequest().getTrailheads(){ (trailheads) in
-//                    self.trailheads = trailheads
-//                }
-//                for th in trailheads {
-//                    annotationItems.append(Location(coordinates: th.locationCoordinate))
-//                }
+        VStack {
+            Map(coordinateRegion: $region, showsUserLocation: true, annotationItems: annotationItems) { item in
+                MapMarker(coordinate: item.coordinates)
             }
+                .ignoresSafeArea(edges: .top)
+                .onAppear {
+                    setRegion(coordinate)
+                    TrailheadRequest().getTrailheads(){ (trailheads) in
+                        self.trailheads = trailheads
+                        for th in trailheads {
+                            annotationItems.append(Location(coordinates: th.locationCoordinate))
+                        }
+                    }
+
+                }
+        }
     }
 
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {

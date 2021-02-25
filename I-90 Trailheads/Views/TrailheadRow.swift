@@ -21,12 +21,13 @@ struct TrailheadRow: View {
                 Spacer()
             }
             HStack {
-                Text("Elev. " + trailhead.elevation)
+                Text("Exit: " + trailhead.exit)
                     .padding(.leading)
                 Spacer()
-                Text("Exit: " + trailhead.exit).padding(.trailing)
+                Text("Elev. " + trailhead.elevation).padding(.trailing)
+                
             }
-            .foregroundColor(.gray)
+            .foregroundColor(.accentColor)
             .font(.subheadline)
             
         }
