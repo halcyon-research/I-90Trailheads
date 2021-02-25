@@ -17,6 +17,7 @@ struct TrailheadList: View {
                 TrailheadRow(trailhead: trailhead)
                     }
                 }
+            .padding(.trailing, 20)
             .onAppear {
                 TrailheadRequest().getTrailheads { (trailheads) in
                     self.trailheads = trailheads

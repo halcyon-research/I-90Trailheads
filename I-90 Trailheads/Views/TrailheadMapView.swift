@@ -11,6 +11,7 @@ import MapKit
 struct TrailheadMapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
+    @ObservedObject var locationManager = LocationManager()
     
     struct Location: Identifiable {
         var id = UUID()
@@ -22,7 +23,7 @@ struct TrailheadMapView: View {
             Location(coordinates: coordinate)
         ]
         
-        Map(coordinateRegion: $region, annotationItems: annotationItems) { item in
+        Map(coordinateRegion: $region, showsUserLocation: true, annotationItems: annotationItems) { item in
             MapMarker(coordinate: coordinate)
         }
             .onAppear {
